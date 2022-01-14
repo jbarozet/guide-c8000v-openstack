@@ -17,9 +17,18 @@ ip domain-name cisco.com
 interface GigabitEthernet1
  ip address dhcp
  no shutdown
+!
 interface GigabitEthernet2
  ip address dhcp
- shutdown
+ no shutdown
+!
+interface GigabitEthernet3
+ ip address dhcp
+ no shutdown
+!
+interface GigabitEthernet4
+ ip address dhcp
+ no shutdown
 !
 ip http server
 ip http authentication local
